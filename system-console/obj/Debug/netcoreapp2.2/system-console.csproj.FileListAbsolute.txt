@@ -1,0 +1,12 @@
+/home/zdjohn/dev/actor-sample/system-console/bin/Debug/netcoreapp2.2/system-console.deps.json
+/home/zdjohn/dev/actor-sample/system-console/bin/Debug/netcoreapp2.2/system-console.runtimeconfig.json
+/home/zdjohn/dev/actor-sample/system-console/bin/Debug/netcoreapp2.2/system-console.runtimeconfig.dev.json
+/home/zdjohn/dev/actor-sample/system-console/bin/Debug/netcoreapp2.2/system-console.dll
+/home/zdjohn/dev/actor-sample/system-console/bin/Debug/netcoreapp2.2/system-console.pdb
+/home/zdjohn/dev/actor-sample/system-console/obj/Debug/netcoreapp2.2/system-console.csprojAssemblyReference.cache
+/home/zdjohn/dev/actor-sample/system-console/obj/Debug/netcoreapp2.2/system-console.csproj.CoreCompileInputs.cache
+/home/zdjohn/dev/actor-sample/system-console/obj/Debug/netcoreapp2.2/system-console.AssemblyInfoInputs.cache
+/home/zdjohn/dev/actor-sample/system-console/obj/Debug/netcoreapp2.2/system-console.AssemblyInfo.cs
+/home/zdjohn/dev/actor-sample/system-console/obj/Debug/netcoreapp2.2/system-console.dll
+/home/zdjohn/dev/actor-sample/system-console/obj/Debug/netcoreapp2.2/system-console.pdb
+/home/zdjohn/dev/actor-sample/system-console/obj/Debug/netcoreapp2.2/system-console.genruntimeconfig.cache
