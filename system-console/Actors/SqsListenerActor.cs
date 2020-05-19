@@ -24,11 +24,11 @@ namespace system_console.Actors
                 // hard coded demo messages
                 var sqsList = new List<SqsMessage>()
                 {
-                    new SqsMessage() { ReceiptHandle = "Handle-a", SqsBody = "something for a", SqsType = "typeA"},
-                    new SqsMessage() { ReceiptHandle = "Handle-b", SqsBody = "something for a", SqsType = "typeB"},
-                    new SqsMessage() { ReceiptHandle = "Handle-c", SqsBody = "something for a", SqsType = "typeA"},
-                    new SqsMessage() { ReceiptHandle = "Handle-d", SqsBody = "something for a", SqsType = "typeB"},
-                    new SqsMessage() { ReceiptHandle = "Handle-s", SqsBody = "something for a", SqsType = "typeS3"},
+                    new SqsMessage() { ReceiptHandle = "Handle-a", SqsBody = "something for a-1", SqsType = "typeA"},
+                    new SqsMessage() { ReceiptHandle = "Handle-b", SqsBody = "something for b-1", SqsType = "typeB"},
+                    new SqsMessage() { ReceiptHandle = "Handle-c", SqsBody = "something for a-2", SqsType = "typeA"},
+                    new SqsMessage() { ReceiptHandle = "Handle-d", SqsBody = "something for b-2", SqsType = "typeB"},
+                    new SqsMessage() { ReceiptHandle = "Handle-s", SqsBody = "something for s", SqsType = "typeS3"},
                 };
                 _messageForwarder.Tell(new SortSqsBatchMessage(sqsList));
             }

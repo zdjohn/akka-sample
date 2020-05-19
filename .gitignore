@@ -466,3 +466,5 @@ MigrationBackup/
 
 .idea/
 coverage-hits/
+
+*/obj/

@@ -17,7 +17,7 @@ namespace system_console.Actors
         {
             if (message is SqsMessage m)
             {
-                Console.WriteLine($"{Self.Path}: handling type a logic, with its payload body: {m.SqsBody}");
+                Console.WriteLine($"{Self.Path}: handling type a logic, with its payload body: {m.SqsBody}, then mapping it into ec-doc schema");
                 _batchIndexer.Tell(new EsEventRecordMessage()
                     {Doc = $"mapped {m.SqsBody}", ReceiptHandle = m.ReceiptHandle});
             }
